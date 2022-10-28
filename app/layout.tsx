@@ -1,4 +1,6 @@
 import "../styles/globals.css"
+import { Footer } from "./Footer";
+import { Nav } from "./Nav";
 
 export default function RootLayout({
 	// Layouts must accept a children prop.
@@ -12,7 +14,11 @@ export default function RootLayout({
 			<head>
 				<title>Next.js</title>
 			</head>
-			<body>{children}</body>
+			<body>
+				<Nav />
+				{children}
+				<Footer />
+			</body>
 		</html>
 	);
 }
