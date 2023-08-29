@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BasePropsComponent } from "../modules/props/base-props";
+import { BasePropsComponent } from "../libs/props/base-props";
 
 export interface LinkProps extends BasePropsComponent {
 	href: string

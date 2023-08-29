@@ -1,4 +1,4 @@
-import { BasePropsComponent } from "../modules/props/base-props";
+import { BasePropsComponent } from "../libs/props/base-props";
 
 interface ButtonProps extends BasePropsComponent { }
 

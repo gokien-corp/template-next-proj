@@ -18,9 +18,11 @@ export default function RootLayout({
 				<title>Next.js</title>
 			</head>
 			<body>
-				<Nav />
-				{children}
-				<Footer />
+				<div style={{ minHeight: "100vh", height: "100%" }}>
+					<Nav />
+					{children}
+					<Footer />
+				</div>
 			</body>
 		</html>
 	);
