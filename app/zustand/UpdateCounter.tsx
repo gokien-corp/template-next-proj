@@ -6,7 +6,5 @@ import { useCountStore } from "../../state/zustand/count-store"
 export const UpdateCounter = () => {
 
 	var updateFunc = useCountStore(state => state.increaseBy)
-	return <div>
-		<Button onClick={() => updateFunc(1)}>Update</Button>
-	</div>
+	return <Button onClick={() => updateFunc(1)}>Update</Button>
 }

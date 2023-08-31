@@ -3,7 +3,9 @@ import { wait } from "../../../libs/helper/wait"
 
 export async function GET(request: NextRequest) {
 
-	await wait(2000)
+	const randomSecond = Math.floor(Math.random() * 5); //Random from 0 to 4
+
+	await wait(randomSecond * 1000)
 
 	const id = request.nextUrl.searchParams.get("id")
 

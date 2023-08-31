@@ -7,6 +7,7 @@ export const Nav = () => {
 			<li><NavItem href="/">Home</NavItem></li>
 			<li><NavItem href="/recoil">Recoil</NavItem></li>
 			<li><NavItem href="/zustand">Zustand</NavItem></li>
+			<li><NavItem href="/ssr">SSR-Stream-Error</NavItem></li>
 		</ul>
 	</nav>
 }
